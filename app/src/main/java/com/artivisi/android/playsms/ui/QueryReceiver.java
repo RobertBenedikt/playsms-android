@@ -175,11 +175,11 @@ public class QueryReceiver extends BroadcastReceiver {
                     String title;
                     StringBuilder msg = new StringBuilder();
                     if (messageHelper.getData().size() == 1) {
-                        title = messageHelper.getData().size() + " New Message";
+                        title = messageHelper.getData().size() + " Nová zpráva";
                         msg.append(messageHelper.getData().get(0).getSrc());
                         db.insertNewInbox(messageHelper.getData().get(0));
                     } else {
-                        title = messageHelper.getData().size() + " New Messages";
+                        title = messageHelper.getData().size() + " Nové zprávy";
                         for (int i = 0; i < messageHelper.getData().size(); i++) {
                             db.insertNewInbox(messageHelper.getData().get(i));
                             msg.append(messageHelper.getData().get(i).getSrc());
