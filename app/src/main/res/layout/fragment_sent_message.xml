@@ -16,7 +16,7 @@
         </android.support.v4.widget.SwipeRefreshLayout>
     </LinearLayout>
     <TextView style="@style/Banner"
-        android:text="Empty"
+        android:text="Prázdný"
         android:layout_gravity="center"
         android:id="@+id/sent_msg_empty" />
 
