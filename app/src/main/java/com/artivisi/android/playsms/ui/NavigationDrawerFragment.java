@@ -32,7 +32,7 @@ import com.artivisi.android.playsms.R;
  */
 public class NavigationDrawerFragment extends Fragment {
 
-    private static final String[] LIST_TITTLE = {"inbox", "sent", "contact", "about","sign out"};
+    private static final String[] LIST_TITTLE = {"příchozí", "odeslané", "kontakty", "o nás","odhlásit"};
     private static final int[] LIST_ICON = {R.drawable.inbox, R.drawable.sent, R.drawable.user, R.drawable.info, R.drawable.sign_out};
 
     /**
