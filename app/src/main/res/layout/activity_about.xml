@@ -7,25 +7,25 @@
     <LinearLayout style="@style/DefaultLayout">
 
         <TextView style="@style/AboutTextTittle"
-            android:text="playSMS Android App"
+            android:text="playSMS Android aplikace"
             android:id="@+id/view_about_tittle"/>
 
         <View style="@style/HorizontalDivider" />
 
         <TextView style="@style/AboutTextContent"
-            android:text="Free and Open Source Android app for playSMS."
+            android:text="Free a Open Source Android aplikace pro playSMS."
             android:id="@+id/view_about_content_1"/>
 
         <TextView style="@style/AboutTextContent"
-            android:text="playSMS is a flexible Web-based Mobile Portal System that it can be made to fit to various services such as an SMS gateway, personal messaging systems, corporate and group communication tools. More information about playSMS can be found at the project URL http://www.playsms.org."
+            android:text="PlaySMS je flexibilní Mobilní Portál obsahující různé služby, jako jsou SMS brána, systém osobních zpráv, firemní a skupinové komunikační nástroje. Více informací o playSMS lze zjistit na adrese http://playsms.cz"
             android:id="@+id/view_about_content_2"/>
 
         <TextView style="@style/AboutTextContent"
-            android:text="playSMS provides Web Services API where external applications may use it to control certain features on playSMS, such as for sending and receiving SMS. More information about playSMS Web Services API can be read on this URL http://bit.ly/playsmsws."
+            android:text="PlaySMS poskytuje API pro webové služby, které následně mohou využívat externí aplikace k provozu svých funkcí prostřednictvím PlaySMS, jako je příjem a zasílání SMS zpráv. Více informací o PlaySMS API pro webové služby najdete na stránce http://playsms.cz/api "
             android:id="@+id/view_about_content_3"/>
 
         <TextView style="@style/AboutTextContent"
-            android:text="This Android app uses playSMS Web Services API."
+            android:text="Tato Android aplikace využívá playSMS API pro Webové Služby."
             android:id="@+id/view_about_content_4"/>
 
         <LinearLayout style="@style/LayoutMatchParent"
@@ -83,7 +83,7 @@
                     android:layout_height="match_parent"
                     android:background="@drawable/table_bg"
                     android:layout_weight="1"
-                    android:text="Version" />
+                    android:text="Verze" />
                 <TextView style="@style/AboutTextContent"
                     android:layout_height="match_parent"
                     android:background="@drawable/table_bg"
@@ -102,12 +102,12 @@
                     android:layout_height="match_parent"
                     android:background="@drawable/table_bg"
                     android:layout_weight="1"
-                    android:text="Project" />
+                    android:text="Projekt" />
                 <TextView style="@style/AboutTextContent"
                     android:layout_height="match_parent"
                     android:background="@drawable/table_bg"
                     android:layout_weight="1"
-                    android:text="playSMS for Android" />
+                    android:text="playSMS pro Android" />
                 <TextView style="@style/AboutTextContent"
                     android:layout_height="match_parent"
                     android:background="@drawable/table_bg"
@@ -121,7 +121,7 @@
                     android:layout_height="match_parent"
                     android:background="@drawable/table_bg"
                     android:layout_weight="1"
-                    android:text="Founder" />
+                    android:text="Zakladatel" />
                 <TextView style="@style/AboutTextContent"
                     android:layout_height="match_parent"
                     android:background="@drawable/table_bg"
@@ -140,7 +140,7 @@
                     android:layout_height="match_parent"
                     android:background="@drawable/table_bg"
                     android:layout_weight="1"
-                    android:text="Co. Founder" />
+                    android:text="Spoluzakladatel" />
                 <TextView style="@style/AboutTextContent"
                     android:layout_height="match_parent"
                     android:background="@drawable/table_bg"
@@ -159,7 +159,7 @@
                     android:layout_height="match_parent"
                     android:background="@drawable/table_bg"
                     android:layout_weight="1"
-                    android:text="Main Developer" />
+                    android:text="Hlavní Developer" />
                 <TextView style="@style/AboutTextContent"
                     android:layout_height="match_parent"
                     android:background="@drawable/table_bg"
@@ -178,7 +178,7 @@
                     android:layout_height="match_parent"
                     android:background="@drawable/table_bg"
                     android:layout_weight="1"
-                    android:text="Maintainer" />
+                    android:text="Správce" />
                 <TextView style="@style/AboutTextContent"
                     android:layout_height="match_parent"
                     android:background="@drawable/table_bg"
@@ -197,7 +197,7 @@
                     android:layout_height="match_parent"
                     android:background="@drawable/table_bg"
                     android:layout_weight="1"
-                    android:text="License" />
+                    android:text="Licence" />
                 <TextView style="@style/AboutTextContent"
                     android:layout_height="match_parent"
                     android:background="@drawable/table_bg"
