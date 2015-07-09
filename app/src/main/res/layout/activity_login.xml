@@ -42,7 +42,7 @@
                 <ProgressBar style="@style/LayoutWrapContent" />
 
                 <TextView style="@style/BannerSubTittle"
-                    android:text="Loading, Please wait"
+                    android:text="Načítám, čekejte prosím"
                     android:id="@+id/text_login_loading"/>
 
             </LinearLayout>
@@ -63,7 +63,7 @@
             <EditText style="@style/EditText"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:hint="playSMS URL"
+                android:hint="URL playSMS (nejspíš http://sms.playsms.cz)"
                 android:id="@+id/server_url"/>
 
             <View style="@style/DashedLine" />
