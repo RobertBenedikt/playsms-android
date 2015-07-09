@@ -102,12 +102,12 @@ public class DashboardActivity extends ActionBarActivity implements
         service = new AndroidMasterServiceImpl(user);
 
         mTitle = user.getUsername();
-        mCredit = "Checking Credit";
+        mCredit = "Kontroluji kredit";
 
         if(isNetworkAvailable()){
             new GetCredit().execute();
         } else {
-            Toast.makeText(getApplicationContext(), "No Internet Connection", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "Není připojení k internetu", Toast.LENGTH_SHORT).show();
             mCredit = "";
             getSupportActionBar().setSubtitle(mCredit);
         }
@@ -334,7 +334,7 @@ public class DashboardActivity extends ActionBarActivity implements
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
-            getSupportActionBar().setSubtitle("Checking Credit");
+            getSupportActionBar().setSubtitle("Kontroluji kredit");
         }
 
         @Override
