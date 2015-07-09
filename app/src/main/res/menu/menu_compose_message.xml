@@ -9,5 +9,5 @@
         android:title="Odeslat"
         android:orderInCategory="100"
         android:icon="@drawable/sent"
-        app:showAsAction="vždy" />
+        app:showAsAction="always" />
 </menu>
