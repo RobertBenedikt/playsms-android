@@ -38,7 +38,7 @@ public class ComposeMessageActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_compose_message);
-        getSupportActionBar().setTitle("New Message");
+        getSupportActionBar().setTitle("Nová zpráva");
         getSupportActionBar().setIcon(R.drawable.pen);
         User u = getUserCookie(LoginActivity.KEY_USER, User.class);
 
@@ -88,7 +88,7 @@ public class ComposeMessageActivity extends ActionBarActivity {
                 to = to.trim();
                 new SendMessage().execute();
             } else {
-                Toast.makeText(getApplicationContext(), "No Internet Connection", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Není připojení k internetu", Toast.LENGTH_SHORT).show();
             }
             return true;
         }
@@ -124,7 +124,7 @@ public class ComposeMessageActivity extends ActionBarActivity {
                         Toast.makeText(getApplicationContext(), messageHelper.getErrorString(), Toast.LENGTH_SHORT).show();
                     }
                 } else {
-                    Toast.makeText(getApplicationContext(), "Message has been delivered", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Zpráva byla odeslána", Toast.LENGTH_SHORT).show();
                     mMsgTo.setText("");
                 }
             }
