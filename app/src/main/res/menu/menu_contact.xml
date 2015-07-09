@@ -3,13 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools">
     <item
         android:id="@+id/action_select_all"
-        android:title="All"
+        android:title="Všechny"
         android:icon="@drawable/tick"
         android:orderInCategory="100"
         app:showAsAction="always" />
     <item
         android:id="@+id/action_clear_all"
-        android:title="Clear"
+        android:title="Zrušit"
         android:icon="@drawable/times"
         android:orderInCategory="99"
         app:showAsAction="always" />
