@@ -116,22 +116,22 @@ public class LoginActivity extends Activity {
 
                     if(serverUrl.isEmpty() || username.isEmpty() || password.isEmpty()){
                         if(serverUrl.isEmpty()) {
-                            mServerUrl.setError("Required");
+                            mServerUrl.setError("Vyžadováno");
                             mServerUrl.setFocusable(true);
                         }
                         if(username.isEmpty()) {
-                            mUsername.setError("Required");
+                            mUsername.setError("Vyžadováno");
                             mUsername.setFocusable(true);
                         }
                         if (password.isEmpty()) {
-                            mPassword.setError("Required");
+                            mPassword.setError("Vyžadováno");
                             mPassword.setFocusable(true);
                         }
                     } else {
                         if (!serverUrl.contains(".")){
-                            textLoginError.setText("Invalid URL");
+                            textLoginError.setText("Chybná URL");
                             textLoginError.setVisibility(View.VISIBLE);
-                            mServerUrl.setError("Invalid");
+                            mServerUrl.setError("Chybné");
                             mServerUrl.setFocusable(true);
                         } else {
                             btnLogin.setEnabled(false);
@@ -150,7 +150,7 @@ public class LoginActivity extends Activity {
                         }
                     }
                 } else {
-                    textLoginError.setText("No Internet Connection");
+                    textLoginError.setText("Není připojení k internetu");
                     textLoginError.setVisibility(View.VISIBLE);
                 }
             }
@@ -181,7 +181,7 @@ public class LoginActivity extends Activity {
             super.onPostExecute(loginHelper);
             if(loginHelper == null){
                 layoutLoading.setVisibility(View.INVISIBLE);
-                textLoginError.setText("Server Error");
+                textLoginError.setText("Chyba serveru");
                 textLoginError.setVisibility(View.VISIBLE);
                 btnLogin.setEnabled(true);
             } else {
